@@ -4,9 +4,10 @@ Production-ready Next.js App Router scaffold built for the Foundations Agile Hub
 
 ## 🚀 Live Preview & Deployment
 - **Deployment Platform:** Vercel
-- **Live Preview URL:** `https://taskpulse-nextjs-marziasyeda217.vercel.app`
-- **Health Check Route:** `https://taskpulse-nextjs-marziasyeda217.vercel.app/health`
-- **API Health Endpoint:** `https://taskpulse-nextjs-marziasyeda217.vercel.app/api/health`
+- **GitHub Repository:** [https://github.com/marziasyeda217/flyrank-capstone](https://github.com/marziasyeda217/flyrank-capstone)
+- **Live Preview URL:** `https://flyrank-capstone.vercel.app`
+- **Health Check Route:** `https://flyrank-capstone.vercel.app/health`
+- **API Health Endpoint:** `https://flyrank-capstone.vercel.app/api/health`
 
 ## 📁 Routed Spec Screens (Server Components by Default)
 - `/` — **Overview Dashboard** (Active sprint metrics, velocity stats, screen cards)

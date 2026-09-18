@@ -1,11 +1,11 @@
 # Deployment & Live Preview Guide
 
 ## 1. Deliverable Summary for Assignment Submission
-- **Repository Name:** `taskpulse-nextjs`
-- **Recommended GitHub Repo Link:** `https://github.com/marziasyeda217/taskpulse-nextjs`
-- **Live Preview URL (Vercel):** `https://taskpulse-nextjs-marziasyeda217.vercel.app` (or your assigned Vercel URL upon import)
-- **Health Check Route:** `https://taskpulse-nextjs-marziasyeda217.vercel.app/health`
-- **Health JSON API:** `https://taskpulse-nextjs-marziasyeda217.vercel.app/api/health`
+- **Repository Name:** `flyrank-capstone`
+- **GitHub Repo Link:** [https://github.com/marziasyeda217/flyrank-capstone](https://github.com/marziasyeda217/flyrank-capstone)
+- **Live Preview URL (Vercel):** `https://flyrank-capstone.vercel.app`
+- **Health Check Route:** `https://flyrank-capstone.vercel.app/health`
+- **Health JSON API:** `https://flyrank-capstone.vercel.app/api/health`
 
 ---
 
