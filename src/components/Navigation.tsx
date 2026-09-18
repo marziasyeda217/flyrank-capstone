@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { label: "Tasks", href: "/tasks" },
   { label: "Sprints", href: "/sprints" },
   { label: "Analytics", href: "/analytics" },
+  { label: "Playground", href: "/playground" },
   { label: "Settings", href: "/settings" },
   { label: "Health Check", href: "/health", isBadge: true },
 ];
