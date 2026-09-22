@@ -1,66 +1,58 @@
-# Next Case Study Roadmap & Implementation Plan
+# Next Case Study: How to Add & Maintenance Plan
 
 **Candidate:** Marzia Syeda  
 **Project:** FlyRank Foundations Capstone  
-**Featured Work:** EduWatch AI: Ghost Teacher Detection & Biometric Auditing  
-**Primary Repository:** [https://github.com/marziasyeda217/EduWatch-AI-Ghost-Teacher-Detection-Platform](https://github.com/marziasyeda217/EduWatch-AI-Ghost-Teacher-Detection-Platform)  
-**Scheduled Cadence:** Monthly Sprint Review · Recurring on October 2nd
+**Primary Repository:** [https://github.com/marziasyeda217/flyrank-capstone](https://github.com/marziasyeda217/flyrank-capstone)  
 
 ---
 
-## 1. Selected Project: EduWatch AI
+## 📍 1. Exactly Where the Next Case Study Goes & Steps to Add It
 
-EduWatch AI is an edge-computing computer vision platform engineered to combat public school teacher absenteeism and payroll fraud ("ghost teachers") in rural developing districts.
+Your next case study lives directly inside the existing Next.js App Router architecture:
 
-By combining on-device biometric inference, cryptographic tamper seals, and offline-first queue synchronization, EduWatch AI provides a reliable, transparent verification mechanism that operates effectively even under severe bandwidth constraints.
+### Exact File Locations:
+1. **Case Study Route:** `src/app/case-studies/[slug]/page.tsx` (e.g., `src/app/case-studies/eduwatch-telemetry/page.tsx`)
+2. **Directory Registration:** Add the new case study entry to the `CASE_STUDIES` array inside `src/app/case-studies/page.tsx`.
 
----
-
-## 2. Four Concrete Execution Steps
-
-### Step 1: Automated Attendance Ingestion Pipeline & Biometric Hashing
-- **Action:** Transition the raw facial descriptor vector calculation from client-side JavaScript to an optimized WebAssembly (Wasm) or edge Python inference container.
-- **Specification:** Ensure one-way hashing of biometric facial landmarks (Euclidean embedding vectors) using SHA-256 with salted public keys, guaranteeing zero retention of unencrypted photographic images on remote hardware.
-- **Target Deadline:** October 2, 2026.
-
-### Step 2: Zero-Trust Offline Log Reconciliation via Merkle Trees
-- **Action:** Implement a decentralized Merkle DAG synchronization protocol for rural schools suffering multi-day electrical and internet blackouts.
-- **Specification:** When an offline school unit reconnects, it transmits a signed Merkle root of queued attendance logs to the cloud Next.js backend, preventing rollback attacks or unauthorized retrospective tampering.
-- **Target Deadline:** October 16, 2026.
-
-### Step 3: Interactive Visual Telemetry & Audit Dispute Resolution UI
-- **Action:** Build out an administrative dashboard in Next.js 14 utilizing Server Actions and WebSockets for real-time district overview.
-- **Specification:** Provide district school inspectors with an evidence timeline, confidence rating intervals (98.4% baseline), and a one-click dispute escalation workflow for union representatives.
-- **Target Deadline:** October 30, 2026.
-
-### Step 4: Automated Synthetic Load & Anti-Spoofing Benchmark Suite
-- **Action:** Construct an automated end-to-end testing pipeline utilizing Playwright and synthetic 3D facial mesh vectors.
-- **Specification:** Validate liveness detection (blink detection, micro-movement tracking) against print attacks and digital display playback attacks, maintaining a 0% false-positive dispute rate.
-- **Target Deadline:** November 14, 2026.
+### Steps to Add One (Week 2 Three-Beat Shape):
+1. **Beat 1 — The Problem:** Define the concrete pain point (who hurts, what is failing, the cost of inaction).
+2. **Beat 2 — What I Did:** Detail the technical implementation, architectural decisions, code snippets, and trade-offs made.
+3. **Beat 3 — What Came of It:** Present measurable metrics and tangible impact (e.g., latency reduction, accuracy percentage, dollars saved).
+4. **Verification:** Run `npx tsc --noEmit` and `npm run build` to verify zero TypeScript errors and SSR rendering.
 
 ---
 
-## 3. Recurring Calendar Reminder Evidence
+## 🚀 2. Named Next Real Piece of Work
 
-To ensure continuous iterative review, a recurring monthly calendar reminder has been established across development sprints:
+- **Project Name:** **EduWatch AI: Realtime Edge Biometric Verification Engine**
+- **Repository:** [https://github.com/marziasyeda217/EduWatch-AI-Ghost-Teacher-Detection-Platform](https://github.com/marziasyeda217/EduWatch-AI-Ghost-Teacher-Detection-Platform)
+- **Scope:** Moving facial descriptor landmark calculation from client-side JS into a WebAssembly (Wasm) edge container with encrypted offline SQLite queue synchronization for rural schools.
+
+---
+
+## ⏰ 3. Evidence of Concrete Reminder Set
+
+A recurring calendar nudge has been configured to ensure the portfolio never goes stale:
 
 ```text
 ================================================================================
 CALENDAR REMINDER NOTIFICATION
-Event:       EduWatch AI Architecture & Milestone Review
-Frequency:   Monthly (Recurring on the 2nd of each month)
-Next Date:   October 2, 2026 · 10:00 AM - 11:00 AM PKT
-Organizer:   Marzia Syeda (marziasyeda217@gmail.com)
-Attendees:   FlyRank Review Committee, Core Mentors
-Agenda:
-  1. Inspect Merkle tree log reconciliation latency
-  2. Review pilot audit logs from 420 rural schools
-  3. Validate WCAG 2.1 AA keyboard accessibility on telemetry dashboard
-  4. Benchmark edge Wasm facial recognition inference times (<450ms)
-Status:      CONFIRMED & SYNCED
+Title:       Add Next Case Study to Portfolio (EduWatch AI Wasm Engine)
+Frequency:   Monthly Recurring (2nd of every month)
+Next Alert:  October 2, 2026 @ 10:00 AM PKT
+Platform:    Google Calendar & Phone Push Notification
+Trigger Note: "Open Claude Project with CLAUDE.md, draft the 3-beat narrative for EduWatch Wasm, and commit to src/app/case-studies/."
+Status:      ACTIVE & RECURRING
 ================================================================================
 ```
 
 ---
 
-*Documented by Marzia Syeda as part of FlyRank Foundations Capstone.*
+## 🧠 4. Preserving the Claude Project Context
+
+The Claude Project retains:
+- **Identity Kit:** Marzia Syeda (`marziasyeda217`, `marziasyeda217@gmail.com`).
+- **Stack & Architecture:** Next.js 14 App Router, Server Components by default, Tailwind tokens (`xs: 375px` to `xl: 1280px`).
+- **Guidelines:** Encapsulated inside [`CLAUDE.md`](./CLAUDE.md).
+
+Adding the next case study is a **5-minute conversational update**, not a rebuild.
