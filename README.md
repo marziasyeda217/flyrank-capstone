@@ -2,7 +2,7 @@
 
 **Candidate:** Marzia Syeda  
 **GitHub Repository:** [https://github.com/marziasyeda217/flyrank-capstone](https://github.com/marziasyeda217/flyrank-capstone)  
-**Featured Work:** EduWatch AI — Ghost Teacher Detection Platform  
+**Live Deployment:** [https://marzia-flyrank-capstone-website.netlify.app/](https://marzia-flyrank-capstone-website.netlify.app/)  
 **Target Deployments:** Netlify & Vercel  
 
 ---
